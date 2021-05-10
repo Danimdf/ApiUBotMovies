@@ -25,7 +25,10 @@ namespace ApiUBotMovies.Properties.Domain_Entity
 
             modelBuilder.Entity<Movie>()
                 .HasData(
-                new Movie {Id = 1, Nome = "Guardiões da Galáxia", Ano = 2014 }
+                new Movie { Id = 1, Nome = "Guardiões da Galáxia", Ano = 2014 },
+                new Movie { Id = 2, Nome = "Senhor dos Anéis: O retorno do rei", Ano = 2003 },
+                new Movie { Id = 3, Nome = "Vingadores: Guerra infinita", Ano = 2018 },
+                new Movie { Id = 4, Nome = "O poderoso chefão", Ano = 1972}
                 );
         }
     }
